@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saurabh.discussit" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".DiscussIT"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".UserRegistrationActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/title_activity_main_menu"
+            android:parentActivityName=".UserRegistrationActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.saurabh.discussit.UserRegistrationActivity" />
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/title_facebook_login" >
+        </activity>
+        <activity
+            android:name=".WelcomePageActivity"
+            android:label="@string/title_activity_welcome_page" >
+        </activity>
+        <activity
+            android:name=".StarterActivity"
+            android:label="@string/title_activity_starter" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".WelcomePageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.saurabh.discussit.WelcomePageActivity" />
+        </activity>
+        <activity
+            android:name=".PublishActivity"
+            android:label="@string/title_activity_publish"
+            android:parentActivityName=".MainMenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.saurabh.discussit.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name=".MyArticlesActivity"
+            android:label="@string/title_activity_my_articles" >
+        </activity>
+        <activity
+            android:name=".ArticleShowActivity"
+            android:label="@string/title_activity_article_show" >
+        </activity>
+        <activity
+            android:name=".EditSubjectsActivity"
+            android:label="@string/title_activity_edit_subjects"
+            android:parentActivityName=".MainMenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.saurabh.discussit.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name=".MySubjectsActivity"
+            android:label="@string/title_activity_my_subjects" >
+        </activity>
+        <activity
+            android:name=".ArticlePagerActivity"
+            android:label="@string/title_activity_article_pager" >
+        </activity>
+        <activity
+            android:name=".UserArticleActivity"
+            android:label="@string/title_activity_user_article" >
+        </activity>
+        <activity
+            android:name=".PublishedActivity"
+            android:label="@string/title_activity_published" >
+        </activity>
+        <activity
+            android:name=".ChatDetailsActivity"
+            android:label="@string/title_activity_chat_details" >
+        </activity>
+        <activity
+            android:name=".DiscussionListActivity"
+            android:label="@string/title_activity_discussion_list" >
+        </activity>
+        <activity
+            android:name=".DiscussionActivity"
+            android:label="@string/title_activity_discussion" >
+        </activity>
+    </application>
+
+</manifest>

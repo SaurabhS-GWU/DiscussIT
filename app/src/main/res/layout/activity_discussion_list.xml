@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#99E83E"
+    tools:context="com.saurabh.discussit.DiscussionListActivity">
+
+    <TextView
+        android:text="@string/title_activity_discussion_list"
+        android:background="#F2921C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+    <ListView
+        android:background="#eeee"
+        android:id="@+id/avail_disc_list"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="200dp"></ListView>
+    <Button
+        android:id="@+id/new_disc_btn"
+        android:text="@string/new_Disc_btn"
+        android:background="#1CA4F2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DiscussIT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">305572152973952</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_facebook_login">Facebook Login</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_welcome_page">WelcomePage</string>
+    <string name="login">LOGIN</string>
+    <string name="register">ENREGISTER</string>
+    <string name="login_facebook">LOGIN WITH FACEBOOK</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="password">mot de passe</string>
+    <string name="reenter_password">Entrez à nouveau le mot de passe</string>
+    <string name="title_activity_starter">StarterActivity</string>
+    <string name="sign_up">Signer</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="Read_Articles">Lire les articles en ligne</string>
+    <string name="sub_choose">Changer de sujet</string>
+    <string name="discuss">Discuter</string>
+    <string name="pub_article">Publier</string>
+    <string name="my_articles">Mes articles</string>
+    <string name="title_activity_publish">PublishActivity</string>
+    <string name="title">Entrez le titre ici</string>
+    <string name="select_subject">Sélectionnez le sujet</string>
+    <string name="save_article">Sauver</string>
+    <string name="publish_article">Publier</string>
+    <string-array name="subject_arrays">
+        <item>sportif</item>
+        <item>Voyage</item>
+        <item>Argent</item>
+        <item>Temps</item>
+        <item>Technologie</item>
+        <item>Livres</item>
+        <item>Personnes</item>
+        <item>Nation</item>
+        <item>Religion</item>
+        <item>Monde</item>
+    </string-array>
+
+    <string name="enter_text">Écrivez votre article ici</string>
+    <string name="title_activity_write">Écrivez</string>
+    <string name="title_activity_my_articles">MyArticlesActivity</string>
+    <string name="title_activity_my_article">myArticleActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="saved_articles">Saved Article</string>
+    <string name="published_articles">Published Articles</string>
+    <string name="title_activity_chat_info">ChatInfoActivity</string>
+    <string name="chat_title">Entrer en chat Title Here</string>
+    <string name="start_chat">Démarrer un chat</string>
+    <string name="Back">Arrière</string>
+    <string name="title_activity_article_show">ArticleShowActivity</string>
+    <string name="title_activity_online_article">OnlineArticleActivity</string>
+    <string name="title_activity_edit_subjects">EditSubjectsActivity</string>
+    <string name="subject_choose_hint">Sélectionnez vos sujets ici</string>
+    <string name="title_activity_my_subjects">MySubjectsActivity</string>
+    <string name="title_activity_article_pager">ArticlePagerActivity</string>
+    <string name="title_activity_user_article">UserArticleActivity</string>
+    <string name="subject_page_title">Sélectionnez Objet dans la liste suivante</string>
+    <string name="title_activity_published">PublishedActivity</string>
+    <string name="read_user_articles">Lire les articles de l\'utilisateur</string>
+    <string name="article_page_title"> Articles écrits par vous</string>
+    <string name="delete">effacer</string>
+    <string name="title_activity_chat_details">ChatDetailsActivity</string>
+    <string name="chat_config_title">Entrez les détails de chat ici</string>
+    <string name="question_chat">Entrez la question que vous voulez poser</string>
+    <string name="room_cap">Entrez le nombre maximum de personnes autorisées</string>
+    <string name="start_chat_btn">Engager le débat</string>
+    <string name="title_activity_discussion_list">Discussions en cours</string>
+    <string name="new_Disc_btn">Démarrer une nouvelle discussion</string>
+    <string name="title_activity_discussion">DiscussionActivity</string>
+    <string name="refresh">rafraîchir</string>
+    <string name="share">part</string>
+
+
+</resources>

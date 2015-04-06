@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.saurabh.discussit.ChatDetailsActivity">
+
+    <TextView
+        android:text="@string/chat_config_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    <Spinner
+        android:id="@+id/subject_spinner3"
+        android:prompt="@string/select_subject"
+        android:entries="@array/subject_arrays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+    <EditText
+        android:id="@+id/question_txt"
+        android:hint="@string/question_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/room_cap_text"
+        android:hint="@string/room_cap"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/strt_cht_btn"
+        android:text="@string/start_chat_btn"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
